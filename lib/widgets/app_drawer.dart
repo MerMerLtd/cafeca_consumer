@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 
 import '../providers/auth.dart';
 
-
 class AppDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -13,13 +12,6 @@ class AppDrawer extends StatelessWidget {
           AppBar(
             title: Text('Hello Friend!'),
             automaticallyImplyLeading: false,
-          ),
-          ListTile(
-            leading: Icon(Icons.settings),
-            title: Text('Open Setting'),
-            onTap: () {
-              
-            },
           ),
           Divider(),
           ListTile(
